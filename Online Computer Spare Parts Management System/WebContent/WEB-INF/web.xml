@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+  <display-name>OOP Employee Web App</display-name>
+ 
+ <!-- Employee Servlets -->
+  <servlet>
+    <servlet-name>AddEmployeeServlet</servlet-name>
+    <servlet-class>com.employee.servlet.AddEmployeeServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>UpdateEmployeeServlet</servlet-name>
+    <servlet-class>com.employee.servlet.UpdateEmployeeServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>DeleteEmployeeServlet</servlet-name>
+    <servlet-class>com.employee.servlet.DeleteEmployeeServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>GetEmployeeServlet</servlet-name>
+    <servlet-class>com.employee.servlet.GetEmployeeServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ListEmployeeServlet</servlet-name>
+    <servlet-class>com.employee.servlet.ListEmployeeServlet</servlet-class>
+  </servlet>
+  
+   <!-- Product Servlets -->
+ <servlet>
+    <servlet-name>AddProductServlet</servlet-name>
+    <servlet-class>com.product.servlet.AddProductServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>UpdateProductServlet</servlet-name>
+    <servlet-class>com.product.servlet.UpdateProductServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>DeleteProductServlet</servlet-name>
+    <servlet-class>com.product.servlet.DeleteProductServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>GetProductServlet</servlet-name>
+    <servlet-class>com.product.servlet.GetProductServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ListProductServlet</servlet-name>
+    <servlet-class>com.product.servlet.ListProductServlet</servlet-class>
+  </servlet>
+  
+   <!-- Supplier Servlets -->
+   <servlet>
+    <servlet-name>AddSupplierServlet</servlet-name>
+    <servlet-class>com.supplier.servlet.AddSupplierServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>UpdateSupplierServlet</servlet-name>
+    <servlet-class>com.supplier.servlet.UpdateSupplierServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>DeleteSupplierServlet</servlet-name>
+    <servlet-class>com.supplier.servlet.DeleteSupplierServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>GetSupplierServlet</servlet-name>
+    <servlet-class>com.supplier.servlet.GetSupplierServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ListSupplierServlet</servlet-name>
+    <servlet-class>com.supplier.servlet.ListSupplierServlet</servlet-class>
+  </servlet>
+  
+  <!-- Orders Servlets -->
+   <servlet>
+    <servlet-name>AddOrdersServlet</servlet-name>
+    <servlet-class>com.orders.servlet.AddOrdersServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>UpdateOrdersServlet</servlet-name>
+    <servlet-class>com.orders.servlet.UpdateOrdersServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>DeleteOrdersServlet</servlet-name>
+    <servlet-class>com.orders.servlet.DeleteOrdersServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>GetOrdersServlet</servlet-name>
+    <servlet-class>com.orders.servlet.GetOrdersServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ListOrdersServlet</servlet-name>
+    <servlet-class>com.orders.servlet.ListOrdersServlet</servlet-class>
+  </servlet>
+  
+   <!-- Employee Servlets Mapping -->
+  <servlet-mapping>
+    <servlet-name>AddEmployeeServlet</servlet-name>
+    <url-pattern>/AddEmployeeServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdateEmployeeServlet</servlet-name>
+    <url-pattern>/UpdateEmployeeServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeleteEmployeeServlet</servlet-name>
+    <url-pattern>/DeleteEmployeeServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetEmployeeServlet</servlet-name>
+    <url-pattern>/GetEmployeeServlet</url-pattern>
+  </servlet-mapping>
+   <servlet-mapping>
+    <servlet-name>ListEmployeeServlet</servlet-name>
+    <url-pattern>/ListEmployeeServlet</url-pattern>
+  </servlet-mapping>
+  
+    <!-- Product Servlets Mapping -->
+   <servlet-mapping>
+    <servlet-name>AddProductServlet</servlet-name>
+    <url-pattern>/AddProductServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdateProductServlet</servlet-name>
+    <url-pattern>/UpdateProductServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeleteProductServlet</servlet-name>
+    <url-pattern>/DeleteProductServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetProductServlet</servlet-name>
+    <url-pattern>/GetProductServlet</url-pattern>
+  </servlet-mapping>
+   <servlet-mapping>
+    <servlet-name>ListProductServlet</servlet-name>
+    <url-pattern>/ListProductServlet</url-pattern>
+  </servlet-mapping>
+  
+    <!-- Supplier Servlets Mapping -->
+    <servlet-mapping>
+    <servlet-name>AddSupplierServlet</servlet-name>
+    <url-pattern>/AddSupplierServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdateSupplierServlet</servlet-name>
+    <url-pattern>/UpdateSupplierServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeleteSupplierServlet</servlet-name>
+    <url-pattern>/DeleteSupplierServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetSupplierServlet</servlet-name>
+    <url-pattern>/GetSupplierServlet</url-pattern>
+  </servlet-mapping>
+   <servlet-mapping>
+    <servlet-name>ListSupplierServlet</servlet-name>
+    <url-pattern>/ListSupplierServlet</url-pattern>
+  </servlet-mapping>
+  
+  <!-- Orders Servlets Mapping -->
+    <servlet-mapping>
+    <servlet-name>AddOrdersServlet</servlet-name>
+    <url-pattern>/AddOrdersServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdateOrdersServlet</servlet-name>
+    <url-pattern>/UpdateOrdersServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeleteOrdersServlet</servlet-name>
+    <url-pattern>/DeleteOrdersServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetOrdersServlet</servlet-name>
+    <url-pattern>/GetOrdersServlet</url-pattern>
+  </servlet-mapping>
+   <servlet-mapping>
+    <servlet-name>ListOrdersServlet</servlet-name>
+    <url-pattern>/ListOrdersServlet</url-pattern>
+  </servlet-mapping>
+ 
+ <listener>
+    <listener-class>
+        com.product.servlet.MyServletContextListener
+    </listener-class>
+</listener>
+ 
+  <welcome-file-list>
+    <welcome-file>login.jsp</welcome-file>
+    <welcome-file>homeView.htm</welcome-file>
+    <welcome-file>homeView.jsp</welcome-file>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+
+</web-app>

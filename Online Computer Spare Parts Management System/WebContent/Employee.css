@@ -1,0 +1,152 @@
+@CHARSET "ISO-8859-1";
+
+.page-holder {
+  min-height: 100vh;
+}
+
+.bg-cover {
+  background-size: cover !important;
+}
+
+
+
+
+body { 	
+  	margin:0px;
+   	padding:0px;
+   	font-family:sans-serif;
+   	
+    	
+}
+
+h1 {
+    color: maroon;
+    margin-left: 150px;
+   
+}
+h2{
+	color: maroon;   
+} 
+
+
+.con {
+	  
+  background-color: transparents;
+  text-align: center;
+	
+}
+
+.add-button {
+    background-color: #0000FF; /* blue */
+    border: none;
+    color: black;
+    width: 100%;
+    padding: 8px 32px;
+    margin:4px 2px;
+    text-align: center;
+    transition: 0.3s;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    
+}
+
+.add-button:hover {
+	
+	background-color: #3e8e41;
+	color: white;
+}
+
+
+.reset-button {
+    background-color: #ffff00; /* yellow */
+    color: black;
+    width: 100%;
+    padding: 8px 100px;
+    margin:4px 2px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.reset-button:hover {
+	background-color: #3e8e41;
+	color: white;
+}
+
+.list-button {
+    background-color: #1CBDE0; /* green */
+    color: black;
+    width: 200%;
+    padding: 8px 10px;
+    margin:4px 2px;
+ 	text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.list-button:hover {
+	background-color: #3e8e41;
+	color: white;
+}
+
+
+
+
+.delete-button {
+    background-color: #FF0000; /* red */
+    color: black;
+    width: 100%;
+    padding: 8px 10px;
+    margin:4px 2px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.delete-button:hover {
+	background-color: #3e8e41;
+	color: white;
+}
+
+.delete-button {
+    background-color: #E0C01C; /* green */
+    color: black;
+    width: 100%;
+    padding: 8px 100px;
+    margin:4px 2px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+delete-button:hover {
+	background-color: #3e8e41;
+	color: white;
+}
+
+
+
+.select-button {
+    background-color: #00FF00;
+    border: none;
+    color: black;
+    width: 100%;
+    padding: 16px 32px;
+    margin:4px 2px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.select-button:hover {
+	background-color: #3e8e41;
+	color: white;
+}
+
+
